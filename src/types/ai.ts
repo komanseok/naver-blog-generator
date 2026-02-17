@@ -30,13 +30,6 @@ export const AI_MODELS: AiModelConfig[] = [
     description: '프리미엄 · 범용 고성능',
     maxTokens: 4096,
   },
-  {
-    provider: 'mock',
-    model: 'mock-v1',
-    label: 'Mock (테스트)',
-    description: 'API 키 없이 테스트용',
-    maxTokens: 4096,
-  },
 ];
 
 export interface AiProvider {

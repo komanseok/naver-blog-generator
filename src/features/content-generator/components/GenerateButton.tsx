@@ -11,7 +11,6 @@ const PROVIDER_LABELS: Record<string, string> = {
   claude: 'Claude',
   gpt: 'GPT',
   gemini: 'Gemini',
-  mock: 'Mock',
 };
 
 export function GenerateButton() {
