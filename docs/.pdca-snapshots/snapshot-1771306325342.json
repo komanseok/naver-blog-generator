@@ -1,0 +1,1129 @@
+{
+  "timestamp": "2026-02-17T05:32:05.340Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-02-17T05:31:56.988Z",
+    "activeFeatures": [
+      "naver-blog-content-generator",
+      "blogA",
+      "seo",
+      "ai",
+      "providers",
+      "generate",
+      "keywords",
+      "seo-score",
+      "stores",
+      "content-generator",
+      "keyword-analyzer",
+      "layout",
+      "history",
+      "editor",
+      "[id]",
+      "supabase",
+      "login",
+      "signup",
+      "callback",
+      "usage"
+    ],
+    "primaryFeature": "naver-blog-content-generator",
+    "features": {
+      "naver-blog-content-generator": {
+        "phase": "do",
+        "matchRate": null,
+        "iterationCount": 0,
+        "startedAt": "2026-02-16T14:00:00.000Z"
+      },
+      "blogA": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:20:59.827Z",
+          "lastUpdated": "2026-02-17T05:18:24.678Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\types\\content.ts"
+      },
+      "seo": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:21:21.123Z",
+          "lastUpdated": "2026-02-17T05:18:05.137Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\components\\seo\\SeoScorePanel.tsx"
+      },
+      "ai": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:22:10.541Z",
+          "lastUpdated": "2026-02-17T05:18:49.939Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\lib\\ai\\prompts.ts"
+      },
+      "providers": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:22:13.584Z",
+          "lastUpdated": "2026-02-16T23:58:22.370Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\lib\\ai\\providers\\mock-provider.ts"
+      },
+      "generate": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:22:48.660Z",
+          "lastUpdated": "2026-02-17T05:18:20.444Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\api\\generate\\route.ts"
+      },
+      "keywords": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:22:55.196Z",
+          "lastUpdated": "2026-02-16T14:22:55.196Z"
+        },
+        "lastFile": "E:/work/web/blogA/src/app/api/keywords/route.ts"
+      },
+      "seo-score": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:22:58.693Z",
+          "lastUpdated": "2026-02-16T14:22:58.693Z"
+        },
+        "lastFile": "E:/work/web/blogA/src/app/api/seo-score/route.ts"
+      },
+      "stores": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:23:16.524Z",
+          "lastUpdated": "2026-02-17T05:11:35.499Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\stores\\useGenerateStore.ts"
+      },
+      "content-generator": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:23:28.373Z",
+          "lastUpdated": "2026-02-17T05:31:56.988Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\features\\content-generator\\components\\ContentPreview.tsx"
+      },
+      "keyword-analyzer": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:23:32.948Z",
+          "lastUpdated": "2026-02-16T14:25:54.767Z"
+        },
+        "lastFile": "E:/work/web/blogA/src/features/keyword-analyzer/hooks/useKeywords.ts"
+      },
+      "layout": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:24:43.229Z",
+          "lastUpdated": "2026-02-17T00:12:39.083Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\components\\layout\\Header.tsx"
+      },
+      "history": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T14:25:25.954Z",
+          "lastUpdated": "2026-02-17T04:50:38.700Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\history\\page.tsx"
+      },
+      "editor": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T23:12:22.675Z",
+          "lastUpdated": "2026-02-17T05:24:19.361Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\components\\editor\\ContentEditor.tsx"
+      },
+      "[id]": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T23:19:12.312Z",
+          "lastUpdated": "2026-02-17T04:32:27.937Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\history\\[id]\\page.tsx"
+      },
+      "supabase": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T23:50:01.957Z",
+          "lastUpdated": "2026-02-17T04:12:34.967Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\lib\\supabase\\middleware.ts"
+      },
+      "login": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T23:53:22.977Z",
+          "lastUpdated": "2026-02-17T00:12:19.787Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\login\\page.tsx"
+      },
+      "signup": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T23:53:35.002Z",
+          "lastUpdated": "2026-02-17T00:12:26.232Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\signup\\page.tsx"
+      },
+      "callback": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-16T23:53:38.235Z",
+          "lastUpdated": "2026-02-16T23:53:38.235Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\auth\\callback\\route.ts"
+      },
+      "usage": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-17T04:05:01.467Z",
+          "lastUpdated": "2026-02-17T04:13:03.465Z"
+        },
+        "lastFile": "E:\\work\\web\\blogA\\src\\app\\api\\usage\\route.ts"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-02-16T13:50:55.284Z",
+      "onboardingCompleted": true,
+      "lastActivity": "2026-02-17T05:31:56.988Z"
+    },
+    "history": [
+      {
+        "action": "plan_created",
+        "feature": "naver-blog-content-generator",
+        "timestamp": "2026-02-16T14:00:00.000Z"
+      },
+      {
+        "action": "design_created",
+        "feature": "naver-blog-content-generator",
+        "timestamp": "2026-02-16T14:10:00.000Z"
+      },
+      {
+        "action": "do_started",
+        "feature": "naver-blog-content-generator",
+        "timestamp": "2026-02-16T14:20:00.000Z"
+      },
+      {
+        "timestamp": "2026-02-16T14:20:59.827Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:21:04.408Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:21:06.056Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:21:07.065Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:21:08.121Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:21:21.123Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:21:46.476Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:10.541Z",
+        "feature": "ai",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:13.585Z",
+        "feature": "providers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:16.366Z",
+        "feature": "providers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:19.509Z",
+        "feature": "providers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:23.006Z",
+        "feature": "ai",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:48.660Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:55.196Z",
+        "feature": "keywords",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:22:58.693Z",
+        "feature": "seo-score",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:23:16.524Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:23:28.373Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:23:32.948Z",
+        "feature": "keyword-analyzer",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:23:42.121Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:23:47.291Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:23:56.916Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:24:05.748Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:24:28.804Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:24:29.486Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:24:43.229Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:24:55.328Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:25:07.874Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:25:22.517Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:25:25.954Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:25:54.767Z",
+        "feature": "keyword-analyzer",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:41:54.410Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:47:48.192Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:55:00.415Z",
+        "feature": "providers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:55:17.328Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:55:27.211Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:55:41.133Z",
+        "feature": "ai",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:55:53.703Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T14:56:11.421Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T15:32:13.098Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T15:37:29.129Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T15:37:33.445Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T15:38:16.440Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:12:22.675Z",
+        "feature": "editor",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:16:03.453Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:18:21.008Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:18:43.244Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:19:12.312Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:19:25.211Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:23:00.448Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:26:08.880Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:29:41.067Z",
+        "feature": "editor",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:50:01.957Z",
+        "feature": "supabase",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:50:05.602Z",
+        "feature": "supabase",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:50:09.714Z",
+        "feature": "supabase",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:50:16.734Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:53:22.977Z",
+        "feature": "login",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:53:35.002Z",
+        "feature": "signup",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:53:38.235Z",
+        "feature": "callback",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:53:57.385Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:54:22.820Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:54:51.448Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:55:19.965Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:55:35.131Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:56:01.790Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:58:22.370Z",
+        "feature": "providers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-16T23:59:02.072Z",
+        "feature": "login",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T00:12:19.787Z",
+        "feature": "login",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T00:12:26.232Z",
+        "feature": "signup",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T00:12:35.383Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T00:12:39.083Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:04:23.007Z",
+        "feature": "supabase",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:04:36.077Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:04:42.134Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:04:50.948Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:05:01.467Z",
+        "feature": "usage",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:05:30.188Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:05:44.684Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:12:34.967Z",
+        "feature": "supabase",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:12:46.946Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:12:50.550Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:12:55.581Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:13:03.465Z",
+        "feature": "usage",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:13:11.083Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:13:16.171Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:13:36.559Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:20:04.781Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:20:09.911Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:26:39.727Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:26:44.181Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:26:50.526Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:31:42.163Z",
+        "feature": "ai",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:32:01.780Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:32:12.669Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:32:27.937Z",
+        "feature": "[id]",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:32:39.360Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:32:43.996Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:40:15.243Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:40:19.857Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:40:24.746Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:40:30.681Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:42:31.193Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:42:39.655Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:42:44.492Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:42:50.121Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:50:11.700Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T04:50:38.700Z",
+        "feature": "history",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:04:56.241Z",
+        "feature": "ai",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:05:04.803Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:05:08.838Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:05:12.787Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:05:17.868Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:05:35.370Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:05:52.198Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:11:26.956Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:11:31.260Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:11:35.499Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:11:40.549Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:11:45.166Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:11:49.517Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:12:04.605Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:12:09.959Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:12:14.857Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:17:44.547Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:17:51.146Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:05.137Z",
+        "feature": "seo",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:11.818Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:15.750Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:20.444Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:24.678Z",
+        "feature": "blogA",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:29.430Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:35.410Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:39.659Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:18:49.939Z",
+        "feature": "ai",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:24:11.828Z",
+        "feature": "editor",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:24:19.361Z",
+        "feature": "editor",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-17T05:31:56.988Z",
+        "feature": "content-generator",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}
