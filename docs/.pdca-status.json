@@ -26,11 +26,13 @@
   "primaryFeature": "naver-blog-content-generator",
   "features": {
     "naver-blog-content-generator": {
-      "phase": "check",
+      "phase": "completed",
       "matchRate": 92,
       "iterationCount": 0,
       "startedAt": "2026-02-16T14:00:00.000Z",
-      "checkedAt": "2026-02-17T09:00:00.000Z"
+      "checkedAt": "2026-02-17T09:00:00.000Z",
+      "completedAt": "2026-02-17T12:00:00.000Z",
+      "deployedTo": "https://naver-blog-generator-tan.vercel.app"
     },
     "blogA": {
       "phase": "do",
