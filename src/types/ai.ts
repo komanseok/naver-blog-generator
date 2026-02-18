@@ -25,8 +25,8 @@ export const AI_MODELS: AiModelConfig[] = [
   },
   {
     provider: 'gpt',
-    model: 'gpt-4.1-mini',
-    label: 'GPT-4.1 Mini',
+    model: 'gpt-4o',
+    label: 'GPT-4o',
     description: '프리미엄 · 범용 고성능',
     maxTokens: 4096,
   },
